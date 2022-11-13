@@ -1,9 +1,25 @@
 @include aoa-bg-series($bg__init,$classes_init);
 
 .agency{
+    &-s1{
+        background-position-x: 60%!important;
+    }
+    &-s2{
+        background-position-x: 60%!important;
+    }
     &-s3{
         background-color: #666!important;
         background-blend-mode: multiply!important;
+    }
+}
+.index{
+    &-s1{
+        background-position-x: 60%!important;
+    }
+}
+.places{
+    &-s1{
+        background-position-x: 60%!important;
     }
 }
 .text{
